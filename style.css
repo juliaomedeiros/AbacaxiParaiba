@@ -1,0 +1,79 @@
+
+.pagina{
+    background-image: url(https://images.unsplash.com/photo-1472352255192-75fb1f6b329c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1342&q=80);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    
+}
+
+#conteudo1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    
+    
+}
+
+.texto1{
+
+    margin-top: 6rem;
+    font-size: 1.3rem;
+    margin-right: 3rem;
+}
+
+.imagem1 {
+
+    height: 400px;
+    filter: drop-shadow(0px 0px 9px);
+}
+
+p { 
+   
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+   
+    
+}
+
+.titulo {
+
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+.conteudo2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 800px;
+    /*margin-top: 5rem;*/
+    margin: 0 auto ;
+   
+}
+
+.conteudo2 > div {
+
+    flex: 1 1 300px;
+    margin: 20px;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+  
+#cadastro {
+
+    margin: 4rem 4rem 4rem 2rem;
+}  
+
+.tabela {
+
+    margin: 4rem 4rem 4rem 2rem;
+
+}
